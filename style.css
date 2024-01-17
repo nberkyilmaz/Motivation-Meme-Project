@@ -1,25 +1,38 @@
-body{
-    background-color: black;
+body {
+    background-color: #1a1a1a; /* Dark gray background color */
+    margin: 0;
+    padding: 0;
 }
-h1{
-    color: white;
+
+h1 {
+    color: #ffcc00; /* Golden yellow text color */
     font-family: 'Libre Baskerville', serif;
     text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
 }
 
-img{
-    border: 5px solid white;
-    height: 200px;
+img {
+    border: 5px solid #ffcc00; /* Golden yellow border */
+    height: 300px;
     margin-top: 20px;
-}
-p{
-    color: white;
-    font-family: 'Libre Baskerville', serif;
-    font-size: 10px;
+    border-radius: 10px; /* Rounded corners for the image */
+    box-shadow: 0 0 20px rgba(255, 204, 0, 0.5); /* Golden yellow shadow */
 }
 
-div{
+p {
+    color: #ccc; /* Light gray text color */
+    font-family: 'Libre Baskerville', serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+div {
     text-align: center;
-    width: 50%;
-    margin-left: 25%;
+    width: 60%;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 15px; /* Rounded corners for the container */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2); /* White shadow */
 }
